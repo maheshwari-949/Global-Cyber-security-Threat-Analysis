@@ -41,3 +41,4 @@ Give stakeholders a single view to answer: Which industries and countries are mo
 
 https://github.com/maheshwari-949/Global-Cyber-security-Threat-Analysis/blob/main/cyber%20security%20dashboard.png
 
+<img width="1142" height="643" alt="cybersecurity dashboard" src="https://github.com/user-attachments/assets/9d3d9ce4-dec6-4c9e-a96c-cf1247749a7c" />
