@@ -37,6 +37,8 @@ Give stakeholders a single view to answer: Which industries and countries are mo
 - **Nation-state attacks account for the largest total loss by attack source** ($40.5B), driven by both a high incident count (794) and among the highest per-incident average loss ($51.0M) — pointing to sustained, well-resourced campaigns rather than isolated events.
 - **Resolution time is fairly consistent across defense mechanisms** (35.7–36.9 hrs on average), with Firewalls resolving marginally faster than VPNs — indicating that in this dataset, the choice of defense tool has less impact on response speed than expected, and incident response process may matter more than the tool itself.
 
+##   Dashboard Preview
 
+https://github.com/maheshwari-949/Global-Cyber-security-Threat-Analysis/blob/main/cyber%20security%20dashboard.png
 
 
