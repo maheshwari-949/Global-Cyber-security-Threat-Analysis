@@ -32,7 +32,7 @@ Give stakeholders a single view to answer: Which industries and countries are mo
 - **Affected Users by Defense Mechanism** – compares how many users were impacted under antivirus, VPN, firewall, AI-based detection, and encryption
 
 **Business Impact & Insights**
-## 💡 Business Impact & Insights
+##  Business Impact & Insights
 - **IT and Government carry the highest overall risk** — IT has the highest total financial loss ($24.8B across 478 incidents) due to sheer volume, while Government has the highest average loss *per incident* ($52.6M), suggesting fewer but more costly attacks. Defense budgets should weigh both attack frequency and severity, not just headline counts.
 - **Nation-state attacks account for the largest total loss by attack source** ($40.5B), driven by both a high incident count (794) and among the highest per-incident average loss ($51.0M) — pointing to sustained, well-resourced campaigns rather than isolated events.
 - **Resolution time is fairly consistent across defense mechanisms** (35.7–36.9 hrs on average), with Firewalls resolving marginally faster than VPNs — indicating that in this dataset, the choice of defense tool has less impact on response speed than expected, and incident response process may matter more than the tool itself.
