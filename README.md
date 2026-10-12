@@ -9,8 +9,12 @@ An interactive Power BI dashboard analyzing 3,000 global cybersecurity incidents
 - **SQL** – data querying
 
 ## Data Source
-- Dataset: [Global Cybersecurity Threats 2015-2024](Kaggle)
-- 3,000 records, one row per reported incident
+- Dataset: Global CyberSecurity Threats 2015-2024
+- Source: https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024
+- Coverage: 2015–2024
+- Dataset creator: atharvasoundankar
+- Records analyzed: 3,000
+- Coverage: 2015–2024
 - Columns: Country, Year, Attack Type, Target Industry, Financial Loss (in Million $), Number of Affected Users, Attack Source, Security Vulnerability Type, Defense Mechanism Used, Incident Resolution Time (in Hours)
 
 ## Features / Highlights
