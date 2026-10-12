@@ -17,6 +17,62 @@ An interactive Power BI dashboard analyzing 3,000 global cybersecurity incidents
 - Coverage: 2015–2024
 - Columns: Country, Year, Attack Type, Target Industry, Financial Loss (in Million $), Number of Affected Users, Attack Source, Security Vulnerability Type, Defense Mechanism Used, Incident Resolution Time (in Hours)
 
+## Data Cleaning and Transformation
+
+The raw dataset was obtained from Kaggle: [Global Cybersecurity Threats 2015–2024](https://www.kaggle.com/datasets/atharvasoundankar/global-cybersecurity-threats-2015-2024).
+
+Python was used to standardize column names and create additional category columns to make the data easier to interpret during analysis and visualization.
+
+### 1. Column Name Standardization
+
+All column names were converted to **snake_case** to maintain a consistent naming convention and make them easier to use in Python, SQL, and Power BI.
+
+### 2. Attack Category Mapping
+
+A new column, `attack_category`, was created from the original `attack_type` column. The new column uses simplified labels to make attack types easier for readers to understand.
+
+ Original Attack Type - Simplified Attack Category 
+
+ Phishing - Email Fraud 
+ 
+ Ransomware - Data Lock 
+ 
+ DDoS - Site Closed
+
+ SQL Injection - Database Attack 
+
+ Malware - Virus Attack 
+ 
+ Man-in-the-Middle - Message Stolen
+
+The original `attack_type` column was retained to preserve the source values, while `attack_category` was used for simplified analysis and reporting.
+
+### 3. Vulnerability Category Mapping
+
+A new column, `vulnerability_category`, was created from the original security vulnerability field to provide more accessible labels for analysis.
+
+ Original Vulnerability Type - Simplified Vulnerability Category 
+
+ Zero-day - Unknown Bug
+ 
+ Social Engineering - people Tricked 
+ 
+ Unpatched Software - System Not Updated
+ 
+ Weak Password - Weak Password
+
+The original vulnerability field was retained for reference, while the new category column was used to make the dashboard easier to interpret.
+
+### Purpose of These Transformations
+
+- Improve column naming consistency.
+- Make attack and vulnerability categories easier to understand.
+- Preserve the original dataset values for traceability.
+- Support clearer grouping, filtering, and visualization in SQL and Power BI.
+
+**Note:** The simplified labels are for reporting and readability. They do not replace the technical definitions of the original cybersecurity terms.
+
+
 ## Features / Highlights
 
 **Business Problem**
@@ -40,6 +96,13 @@ Give stakeholders a single view to answer: Which industries and countries are mo
 - **IT and Government carry the highest overall risk** — IT has the highest total financial loss ($24.8B across 478 incidents) due to sheer volume, while Government has the highest average loss *per incident* ($52.6M), suggesting fewer but more costly attacks. Defense budgets should weigh both attack frequency and severity, not just headline counts.
 - **Nation-state attacks account for the largest total loss by attack source** ($40.5B), driven by both a high incident count (794) and among the highest per-incident average loss ($51.0M) — pointing to sustained, well-resourced campaigns rather than isolated events.
 - **Resolution time is fairly consistent across defense mechanisms** (35.7–36.9 hrs on average), with Firewalls resolving marginally faster than VPNs — indicating that in this dataset, the choice of defense tool has less impact on response speed than expected, and incident response process may matter more than the tool itself.
+
+## Conclusion
+
+This project analyzed **3,000 cybersecurity incidents from 2015 to 2024**, revealing approximately **$151.48 billion in total financial losses** and **1.51 billion cumulative affected users across incidents**. The analysis identified the **IT industry as having the highest total financial loss**, while the **Government sector had the highest average loss per incident**. Nation-state attacks also recorded the highest aggregate financial loss among the attack sources analyzed.
+
+These findings suggest that organizations should prioritize cybersecurity investments based on financial exposure, strengthen defenses against costly attack sources, and review incident response strategies to identify opportunities for improvement. Using Python, SQL, and Power BI, this project demonstrates how raw incident data can be transformed into measurable insights that support risk prioritization and more informed security decisions.
+
 
 ##   Dashboard Preview
 
