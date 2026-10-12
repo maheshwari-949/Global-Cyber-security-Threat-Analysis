@@ -22,7 +22,7 @@ Organizations face a rising volume of cyberattacks, but without visibility into 
 Give stakeholders a single view to answer: Which industries and countries are most exposed? Which attack types cause the most damage? And are current defense mechanisms reducing loss and resolution time?
 
 **Walkthrough of Key Visuals**
-- **KPI Cards** – Total Attacks (3K), Total Financial Loss ($151.48K M), Total Affected Users (1.51bn), and Avg Resolution Time (36.48 hrs) for an at-a-glance summary
+- **KPI Cards** – Total Attacks (3K), Total Financial Loss ($151.48K ), Total Affected Users (1.51bn), and Avg Resolution Time (36.48 hrs) for an at-a-glance summary
 - **Attack Category Table** – breaks down financial loss, affected users, and resolution time across categories like Site Closed, Database Attack, Email Fraud, Data Lock, Virus Attack, and Message Stolen
 - **Financial Loss Trend** – line chart showing losses fluctuating year over year, with a sharp dip in 2019 and a steady climb from 2020–2023
 - **Loss Severity** – bar chart splitting incidents into high, moderate, and low severity by financial impact
